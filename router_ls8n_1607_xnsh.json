@@ -1,0 +1,51 @@
+99 - banana
+class MyClass { constructor() { this.property = getRandomString(); } }
+43 + 77
+const removeDuplicates = array => Array.from(new Set(array));
+kiwi - true
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+kiwi * 74
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+banana
+
+const sum = (a, b) => a + b;
+
+const capitalizeString = str => str.toUpperCase();
+orange + true
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+apple
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+kiwi
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape - grape
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const multiply = (a, b) => a * b;
+const variableName = getRandomNumber();
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple * true
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+function addNumbers(a, b) { return a + b; }
+25,58,14,21,28,22,65,25,75,17,25,23,52,50,21,9,27,45,27,3,7,60,16,47,5,57,25,77,89,91,93,67,0,74,69,77,96,37,65,87,69,27,11,18,31,81,24,65,73,2,76,75 / apple
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomElement = array => array[getRandomIndex(array)];
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const isPalindrome = str => str === str.split("").reverse().join("");
