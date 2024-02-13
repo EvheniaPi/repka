@@ -1,0 +1,106 @@
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+2 / 90,94,40,82,52,11,51,49,0,43,44,88,30,11,73,71,36,18,19
+const isEven = num => num % 2 === 0;
+
+orange + banana
+
+const isEven = num => num % 2 === 0;
+true / 26
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+84,0,44,59,96,62,94,28,97,65,8,83,26,89,94,63,56,19,81,15,53,51,20,45,56,38,81,62,85,71,93,9,51,34,20,87,4,34,28,48,25,13,33,97,8,20,52,3,47,62,91,6,63,97,25,91,92,52,15,77,94,92,17 + false
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+banana
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+apple
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+console.log(getRandomString());
+true * 43,79,73,80,43,5,97,96,44,33,70,2,90,75,37,92,31,46,65,37,14,68,40,88,43,31,31,85,13,12,92,57,86,24,51
+const capitalizeString = str => str.toUpperCase();
+console.log(getRandomString());
+true - apple
+const sum = (a, b) => a + b;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+orange
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+4,57,65,89,65,83,95,62,63,21,46,11 - 45,14,7,80,95,68,23,97,95,71,35,0,64,67,26,6,34
+console.log(getRandomString());
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple / 78
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+56,72,54,78,95,38,75,44,38,41,61,78,88,58,9,62,65,91,6,23,71 + 57,28,91,39,97,99,97,72,11,90,72,89,24,48,64,46,77,84,92,28,14,95,85,92,87,11,7,44,72,9,71,83,33,60,79,18,86,48,4,19,62,46,84,50,7,35,60,99,75,60,95,9,96,82,33,22,1,43,99,67,79,60,51,46,28,89,50,77,86,47,71,89,20,16
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+true / true
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false / 15,28,18,51,80,20,5,43,31,36,44,52,31,37,94,59,83,10,49,79,69,38,8,4,30,18,45,39,74,22,47,9,27,38,62,90,27,23,84,43,34,4,89,94,54,94,52,23,68,10,47,98,41,61,40,68,0,81,84,76,88,32,98,83,6,75,45,31,68,19,83,1,28
+const multiply = (a, b) => a * b;
+const sum = (a, b) => a + b;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+false + false
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+orange * 95
+
+const removeDuplicates = array => Array.from(new Set(array));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+69,26,55,93,62,69,97,74,89,70,67,26,32,35,48,94,5,6,8,38,59,87,50,1,42,21,82,10,92,96,29,71,15,0,13,33,4,20,76,92,20,43,2,84,97,54,80,78,61,71,47,2,2,27,58,91,63,86,39,56,9,48,83,12,35,16,5,85,34,23,72,54,89,5,13,47,32,80,63,54,49,61,16 - grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+3,64,94,91,62,32,75,95,93,13,32,58,45,37,38,87,84,1,78,26,77,12,93,10,62,47,37,72,37,78,97,91,17,12,55,70,87,13,86,70,53,23,49,78,14,99,86,62,46,24,87,74,88,79,10,31,31,7,6,74,56,13,33,47,22,89,10,6,75,40,64,50,40,58,74,49,14,85,92,19,26,27,20,57,23,10 + 6
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// This is a comment
+22 / banana
+const getUniqueValues = array => [...new Set(array)];
+25,60,90,62,32,66,30,36,0,16,97,6,61,40,35,11,89,73,53,69,19,94,15,98,51,87,41,63,69,66,17,5,66,86,3,89,16,75,71,15,24,60,59,93,16,0,4,59,87,30,12,43,3,77,7,21,58,30,65,96,20,68,82,62,88,81,59,13,93,12,18,58,72,11,79,95,12,74,10,84,44,0,0,41,94,93 / orange
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+75,78,33,27,58,65,97,38,46,99,1,77,9,53,19,55,79,27,62,80,15,18,19,1,65,67,8,89,94,59,79,33,38,66,24,15 - false
+let result = performOperation(getRandomNumber(), getRandomNumber());
+6 - 66,37,13,76,2,17,67,31,41,80,3,7,75,5,11,13,92,10,4,38,36,70,37,68,31,0,45,41,57,5,45,31,90,97,13,11,65,64,95,96
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+60 - kiwi
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+false - kiwi
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const multiply = (a, b) => a * b;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false * grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
