@@ -1,0 +1,88 @@
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const isEven = num => num % 2 === 0;
+apple - grape
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange
+
+function addNumbers(a, b) { return a + b; }
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomSubset = (array, size) => array.slice(0, size);
+grape
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+1 + 99,30,3,97,78,53,40,5,98,85,34,92,32,61,68,88,15,50,9,28,20,86,42,57,31,46,30,51,15,93,45,53,97,94,69,93,85,97,57,1,6,36,46,84,29,93,84
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+orange * 69,30,23,33,94,0,1,91,2,89,56,77,47,86,5,35,77,68,36,14,97,4,83,6,1,67,74,51,25,65,48,74,27,8,92,50,84,45,42,55,94,74,15,38,23,55,94,22,61,62,21,40,21,95,99,23,4,17,2,38,10,73,28,37,74,17,91,7,49,14,57,3,73,85,16,80,27,74,96,52,72,64,83,33,45,45,57,24,53,50,30,27,76,3,25,48,44
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+86 / false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const greet = name => `Hello, ${name}!`;
+const getRandomElement = array => array[getRandomIndex(array)];
+grape - false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+99,31,50,75,1,78,70,82,83,54,66,93,59,64,80,83,61,44,98,92,12,69,76,90,52,53,8,77,46,29,96,58,10,9,86,96,95,77,69 - 35
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+banana - false
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+kiwi
+
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const squareRoot = num => Math.sqrt(num);
+55 - banana
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+false + apple
+const squareRoot = num => Math.sqrt(num);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomElement = array => array[getRandomIndex(array)];
+6,98,98,19,79,45,65,79,50,29,74,94,39,94,29,11,64,16,47,82,55,60,53,46,20,42,72,39 - 87
+const randomNumber = getRandomNumber();
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const isEven = num => num % 2 === 0;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+kiwi
+
+const getUniqueValues = array => [...new Set(array)];
+orange / 36
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+function addNumbers(a, b) { return a + b; }
+21,31,22,55,10 + 89
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const variableName = getRandomNumber();
+banana
+
+console.log(getRandomString());
+const reverseString = str => str.split("").reverse().join("");
+37,85,4,80,46,74,22,71,40,5,93,13,38,61,33,10,72,65,2,69,45,62,46 + false
+function addNumbers(a, b) { return a + b; }
+
+70 + 40,92,6,9,78,32,84,11
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+orange
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const removeDuplicates = array => Array.from(new Set(array));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+29,21,21,92,96,99,76,84,16,61,25,20,45,65,76,10,20,0,95,55,54,1,80,95,31,60,59,14,16,41,29,23,2,33,61,10,29,52,77,91,94,98,78,40,89,14,1,36,75,69,26,71,67 * 58
+
+const reverseString = str => str.split("").reverse().join("");
