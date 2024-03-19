@@ -1,0 +1,79 @@
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+80 + 17
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+function addNumbers(a, b) { return a + b; }
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+85,28,30,48,35,43,58,84,29,18,97,62,65,23,85,18,76,50,31,2,87,77,71,14,64,15,19,87,18,92,3,62,30,41,78,13,68,78,70,92,67,38,43,91,76,97,1,90,17,9,93,67,7,24,66,0,75,22,34,61,1,44,30,58,28,97,3,25,20 / orange
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+grape * 0
+function addNumbers(a, b) { return a + b; }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+const getRandomElement = array => array[getRandomIndex(array)];
+apple
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+function addNumbers(a, b) { return a + b; }
+const squareRoot = num => Math.sqrt(num);
+console.log(getRandomString());
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+true - true
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+banana
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const reverseString = str => str.split("").reverse().join("");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+18 / false
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+orange
+
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const formatDate = date => new Date(date).toLocaleDateString();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+98 * false
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+banana * true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+console.log(getRandomString());
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
