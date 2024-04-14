@@ -1,0 +1,41 @@
+58,53,67,92,44,89,60,58,44 / true
+const findLargestNumber = numbers => Math.max(...numbers);
+
+5,51,58,62,61,57,58,62,52,37,8,44,15,39,36,16,0,5,94,8,46,67,25,5,82,59,88,85,25,0,25,34,1,24,94,7,70,83,7,59,47,79,0,79,60,3 * 71,86,1,3,76,94,52,86,3,73,65,59,53,39,39,64,33,85,58,3,89,86,70,43,58,35,84,6,18,81,56,58,52,78,59,83,84,40,66,91,0,83,36,30,91,72,26,77,71,57,17,35,16,87,27,41,18,77,90,44,62,71,62,27,32,40,4,66,81,4,98,39,44,0
+// This is a comment
+kiwi / 51
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+99,51,76,34,59,68,5,71,83,50,91,73,86,76,90,99,2,87,68,55,54,58,24,87,13,81,7,38,29,13,77,12,17,49,58,79,27,70,88,4,76,67,22,84,83,76,41,61,71,71,69,90,3,72,3,94,0,87,90 * 74,44,73,27,15,90,33,59,28,92,61,7,66,7,88
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true / false
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true / false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const squareRoot = num => Math.sqrt(num);
+const reverseString = str => str.split("").reverse().join("");
+orange / false
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true + 6,23,79,13,28,15,44,23,73,17,34,36,78,89,23,85,72,17,59,29,29,50,64,34,83,63,91
+
+function addNumbers(a, b) { return a + b; }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+true - 79
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+orange + 47,84,64,29,80,7,82,77,95,49,83,91,36,95,44,53,17,75,38,0,19,96,59,72,81,28,20,57,73,24,67,18,28,51,18,74,44,7,58,51,54,99,55,50,51,38,23,13,40,19,0,9,40,69
+const findSmallestNumber = numbers => Math.min(...numbers);
+13 - true
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+95,89,0,97,61,58 / banana
+console.log(getRandomString());
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
